@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "mocha client/src/models/specs",
-    "start": "nodemon server",
+    "start": "nodemon --inspect server",
     "webpack": "cd client && webpack -w"
   },
   "author": "",
